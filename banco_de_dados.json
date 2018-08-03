@@ -1,0 +1,639 @@
+{
+  "ofertas": [
+    {
+      "id": 1,
+      "categoria": "restaurante",
+      "titulo": "Super Burger",
+      "descricao_oferta": "Rodízio de Mini-hambúrger com opção de entrada.",
+      "anunciante": "Original Burger",
+      "valor": 29.9,
+      "destaque": true,
+      "imagens": [
+        {
+          "url": "/assets/ofertas/1/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/1/img2.jpg"
+        },
+        {
+          "url": "/assets/ofertas/1/img3.jpg"
+        },
+        {
+          "url": "/assets/ofertas/1/img4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "categoria": "restaurante",
+      "titulo": "Cozinha Mexicana",
+      "descricao_oferta": "Almoço ou Jantar com Rodízio Mexicano delicioso.",
+      "anunciante": "Mexicana",
+      "valor": 32.9,
+      "destaque": true,
+      "imagens": [
+        {
+          "url": "/assets/ofertas/2/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/2/img2.jpg"
+        },
+        {
+          "url": "/assets/ofertas/2/img3.jpg"
+        },
+        {
+          "url": "/assets/ofertas/2/img4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "categoria": "restaurante",
+      "titulo": "Pizzas Grandes",
+      "descricao_oferta": "Pizza Grande, Mussarela, Marguerita ou outras!",
+      "anunciante": "Nossa Pizza",
+      "valor": 21.9,
+      "destaque": false,
+      "imagens": [
+        {
+          "url": "/assets/ofertas/3/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/3/img2.jpg"
+        },
+        {
+          "url": "/assets/ofertas/3/img3.jpg"
+        },
+        {
+          "url": "/assets/ofertas/3/img4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "categoria": "diversao",
+      "titulo": "Estância das águas",
+      "descricao_oferta": "Diversão garantida com piscinas, trilhas e muito mais.",
+      "anunciante": "Estância das águas",
+      "valor": 31.9,
+      "destaque": true,
+      "imagens": [
+        {
+          "url": "/assets/ofertas/4/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img2.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img3.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img4.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img5.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "categoria": "diversao",
+      "titulo": "Kart",
+      "descricao_oferta": "Bateria de Kart de 30 minutos.",
+      "anunciante": "Speed Kart",
+      "valor": 54.9,
+      "destaque": false,
+      "imagens": [
+        {
+          "url": "/assets/ofertas/5/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/5/img2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "categoria": "diversao",
+      "titulo": "Academia de tiro",
+      "descricao_oferta": "Sessão de tiro dinâmico com Instrutor, Estande, Alvo e Equipamentos.",
+      "anunciante": "Academia de Tiro",
+      "valor": 89.9,
+      "destaque": false,
+      "imagens": [
+        {
+          "url": "/assets/ofertas/6/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/6/img2.jpg"
+        }
+      ]
+    }
+  ],
+  "como-usar": [
+    {
+      "id": 1,
+      "descricao": "Não é necessário agendar"
+    },
+    {
+      "id": 2,
+      "descricao": "Válido de segunda a quinta das 12h as 23h"
+    },
+    {
+      "id": 3,
+      "descricao": "Não é necessário agendar"
+    },
+    {
+      "id": 4,
+      "descricao": "Necessário agendar com no mínimo 48 horas de antecedência"
+    },
+    {
+      "id": 5,
+      "descricao": "Válido de segunda a sábado das 12h as 23h. Necessário agendamento prévio"
+    },
+    {
+      "id": 6,
+      "descricao": "Não é necessário agendar. Sujeito à fila."
+    }
+  ],
+  "onde-fica": [
+    {
+      "id": 1,
+      "descricao": "Avenida João da Silva, 255, São Paulo - SP"
+    },
+    {
+      "id": 2,
+      "descricao": "Rua Francisco Mendes, 1000, Rio de Janeiro - SP "
+    },
+    {
+      "id": 3,
+      "descricao": "Avenida Lúcio Rodrigues Alves, 33, Fortaleza - CE"
+    },
+    {
+      "id": 4,
+      "descricao": "Avenida José de Oliveira, 550, Campo Grande - MS"
+    },
+    {
+      "id": 5,
+      "descricao": "Avenida Júlia Abrão, 77, São Paulo - SP"
+    },
+    {
+      "id": 6,
+      "descricao": "Estrada Maria das Graças, 12, Salvador - BA "
+    }
+  ],
+  "sorteios": [
+    {
+      "id": 1,
+      "data": "21/07/2018",
+      "resultados": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "id_bolao": 1
+    },
+    {
+      "id": 2,
+      "data": "21/07/2018",
+      "resultados": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "id_bolao": 1
+    },
+    {
+      "id": 3,
+      "data": "21/07/2018",
+      "resultados": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "id_bolao": 1
+    },
+    {
+      "id": 4,
+      "data": "21/07/2018",
+      "resultados": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "id_bolao": 1
+    },
+    {
+      "id": 5,
+      "data": "22/07/2018",
+      "resultados": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "id_bolao": 1
+    },
+    {
+      "id": 6,
+      "data": "22/07/2018",
+      "resultados": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "id_bolao": 2
+    },
+    {
+      "id": 7,
+      "data": "22/07/2018",
+      "resultados": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "id_bolao": 2
+    },
+    {
+      "id": 8,
+      "data": "22/07/2018",
+      "resultados": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "id_bolao": 2
+    },
+    {
+      "id": 9,
+      "data": "22/07/2018",
+      "resultados": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "id_bolao": 2
+    },
+    {
+      "id": 10,
+      "data": "22/07/2018",
+      "resultados": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "id_bolao": 2
+    },
+    {
+      "id": 11,
+      "data": "22/07/2018",
+      "resultados": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "id_bolao": 2
+    },
+    {
+      "id": 12,
+      "data": "21/07/2018",
+      "resultados": [
+        1,
+        4,
+        10,
+        20,
+        60
+      ],
+      "id_bolao": 3
+    },
+    {
+      "id": 13,
+      "data": "21/07/2018",
+      "resultados": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "id_bolao": 3
+    },
+    {
+      "id": 14,
+      "data": "21/07/2018",
+      "resultados": [
+        11,
+        22,
+        32,
+        42,
+        52
+      ],
+      "id_bolao": 3
+    },
+    {
+      "id": 15,
+      "data": "21/07/2018",
+      "resultados": [
+        6,
+        20,
+        25,
+        42,
+        50
+      ],
+      "id_bolao": 3
+    },
+    {
+      "id": 16,
+      "data": "22/07/2018",
+      "resultados": [
+        7,
+        66,
+        67,
+        68,
+        69
+      ],
+      "id_bolao": 3
+    }
+  ],
+  "bolao": [
+    {
+      "id": 1,
+      "dataAtivacao": "10/07/2018",
+      "ativo": false
+    },
+    {
+      "id": 2,
+      "dataAtivacao": "17/07/2018",
+      "ativo": false
+    },
+    {
+      "id": 3,
+      "dataAtivacao": "21/07/2018",
+      "ativo": true
+    }
+  ],
+  "observador": [
+    {
+      "id": 1,
+      "name": "Arivaldo",
+      "role": "Administrador"
+    },
+    {
+      "id": 2,
+      "name": "Luana",
+      "role": "Apostador"
+    },
+    {
+      "id": 3,
+      "name": "Xororó",
+      "role": "Apostador"
+    }
+  ],
+  "apostas": [
+    {
+      "id": 1,
+      "palpites": [
+        13,
+        23,
+        17,
+        18,
+        49,
+        60
+      ],
+      "id_bolao": 1,
+      "id_apostador": 1
+    },
+    {
+      "id": 2,
+      "palpites": [
+        14,
+        27,
+        37,
+        38,
+        49,
+        70
+      ],
+      "id_bolao": 1,
+      "id_apostador": 1
+    },
+    {
+      "id": 3,
+      "palpites": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "id_bolao": 1,
+      "id_apostador": 2
+    },
+    {
+      "id": 4,
+      "palpites": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        70
+      ],
+      "id_bolao": 1,
+      "id_apostador": 3
+    },
+    {
+      "id": 5,
+      "palpites": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        70
+      ],
+      "id_bolao": 1,
+      "id_apostador": 3
+    },
+    {
+      "id": 6,
+      "palpites": [
+        11,
+        21,
+        31,
+        81,
+        91,
+        99
+      ],
+      "id_bolao": 1,
+      "id_apostador": 3
+    },
+    {
+      "id": 7,
+      "palpites": [
+        13,
+        23,
+        17,
+        18,
+        49,
+        60
+      ],
+      "id_bolao": 3,
+      "id_apostador": 1
+    },
+    {
+      "id": 8,
+      "palpites": [
+        14,
+        27,
+        37,
+        38,
+        49,
+        70
+      ],
+      "id_bolao": 3,
+      "id_apostador": 1
+    },
+    {
+      "id": 9,
+      "palpites": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "id_bolao": 3,
+      "id_apostador": 2
+    },
+    {
+      "id": 10,
+      "palpites": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        70
+      ],
+      "id_bolao": 3,
+      "id_apostador": 3
+    },
+    {
+      "id": 11,
+      "palpites": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        70
+      ],
+      "id_bolao": 3,
+      "id_apostador": 3
+    },
+    {
+      "id": 12,
+      "palpites": [
+        11,
+        21,
+        31,
+        81,
+        91,
+        99
+      ],
+      "id_bolao": 3,
+      "id_apostador": 3
+    }
+  ],
+  "pedidos": [
+    {
+      "endereco": "rua da suruba",
+      "numero": "33",
+      "complemento": "3",
+      "formaPagamento": "dinheiro",
+      "id": 1
+    },
+    {
+      "endereco": "ddddddddddddddddddd",
+      "numero": "dddd",
+      "complemento": null,
+      "formaPagamento": "dinheiro",
+      "id": 2
+    },
+    {
+      "endereco": "fwfewfewfew",
+      "numero": "dd",
+      "complemento": null,
+      "formaPagamento": "debito",
+      "id": 3
+    },
+    {
+      "endereco": "dqwdqwdwqd",
+      "numero": "ddd",
+      "complemento": "dd",
+      "formaPagamento": "dinheiro",
+      "id": 4
+    },
+    {
+      "endereco": "dwdwdw",
+      "numero": "dd",
+      "complemento": "dd",
+      "formaPagamento": "dinheiro",
+      "id": 5
+    },
+    {
+      "endereco": "wdwdw",
+      "numero": "dwd",
+      "complemento": null,
+      "formaPagamento": "dinheiro",
+      "id": 6
+    },
+    {
+      "endereco": "ddwdwd",
+      "numero": "ddd",
+      "complemento": null,
+      "formaPagamento": "dinheiro",
+      "id": 7
+    },
+    {
+      "endereco": "vsdvds",
+      "numero": "vsvds",
+      "complemento": null,
+      "formaPagamento": "dinheiro",
+      "id": 8
+    },
+    {
+      "endereco": "fefewf",
+      "numero": "few",
+      "complemento": null,
+      "formaPagamento": "debito",
+      "id": 9
+    }
+  ]
+}

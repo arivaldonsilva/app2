@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="secao">
+      <h3 class="text-center">Sorteios Bolão</h3>
+      <h5 class="text-center">Acompanhe o resultado do bolão:</h5>
+    </div>
+
+    <hr />
+
+    <div class="row">
+      <div class="col-sm-3" *ngFor="let sorteio of sorteios">
+        <div class="card border-primary">
+          <div class="card-header text-center">{{ sorteio.data }}</div>
+          <div class="card-body text-center">
+           
+                <p class="sorteio_numeros">
+                    <span  *ngFor="let resultado of sorteio.resultados "> {{ resultado }} </span>
+                </p>
+            <a href="#" class="btn btn-outline-primary">Detalhes Sorteios</a>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Aqui informações para seguir</small>
+            <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="customControlValidation1{{sorteio.id}}" required>
+                <label class="custom-control-label" for="customControlValidation1{{sorteio.id}}">Check this custom checkbox</label>
+                <div class="invalid-feedback">Example invalid feedback text</div>
+              </div>
+          </div>
+      
+        </div>
+        <br>
+      </div>
+
+      <hr />
+    </div>

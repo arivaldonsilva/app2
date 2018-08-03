@@ -1,0 +1,74 @@
+<div class="container">
+
+  <div class="secao">
+    <h3 class="text-center">Destaques do dia!</h3>
+    <h5 class="text-center">Aproveite as super ofertas que separamos para você:</h5>
+
+    <div class="row" *ngIf="loading; else loadingPanel">
+      <div class="col-sm-4"></div>  
+      <div class="col-sm-4">
+          <div class="progress" style="height: 30px" >
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100" style="width: 100%" >Carregando
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+ 
+  <ng-template #loadingPanel>
+  </ng-template>
+  <hr />
+
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let oferta of ofertas">
+      <div class="card">
+        <img class="card-img-top" [src]="oferta.imagens[0].url">
+        <div class="card-body">
+          <h4 class="card-title">{{ oferta.titulo }}</h4>
+          <p class="card-text">{{ oferta.descricao_oferta }}</p>
+          <p class="preco">{{ oferta.valor | currency:'BRL' }}</p>
+          <a [routerLink]="['/oferta', oferta.id]" class="btn btn-outline-primary">Ver oferta</a>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+  </div>
+  <br>
+</div>
+
+  <div class="container" *ngIf="vazio">
+
+    <div class="secao">
+      <h3 class="text-center">Usuarios Cadastrados</h3>
+      <h5 class="text-center">Aproveite para verificar os usuários do banco de dados:</h5>
+    </div>
+
+    <hr />
+
+    <div class="row">
+      <div class="col-sm-3" *ngFor="let usuario of usuarios">
+        <div class="card">
+          <img class="card-img-top" src="/assets/ofertas/1/img1.jpg">
+          <div class="card-body">
+            <h4 class="card-title">{{ usuario.name }} - {{ usuario.role }}</h4>
+            <p class="card-text">{{ usuario.dataCriacao | date:"dd/MM/yyyy" }}</p>
+            <p class="preco">{{ usuario.id + usuario.id }}</p>
+            <a href="#" class="btn btn-outline-primary">Ver oferta</a>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+      
+        </div>
+        <br>
+      </div>
+
+      <hr />
+    </div>
+  </div>
+    <br>
+    <br>
+    <br>
+   
